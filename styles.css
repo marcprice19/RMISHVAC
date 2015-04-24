@@ -1,0 +1,117 @@
+  /*HOME PAGE AND NAV*/
+body {
+  background-color: black;
+}
+img {
+  width: 200px;
+  height: 80px;
+}
+h1 {
+  font-family: serif;
+}
+.list-group {
+  text-align: center;
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 
+}
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home {
+  background-image: url(/images/bean.png);
+}
+
+a.list-group-item:visited {
+  background-color: white;
+}
+a.list-group-item {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+}
+a.list-group-item:hover {
+  background-color: #547598;
+  color: white;
+}
+ul {
+  font-size: 20px;
+  padding-top: 18px;
+  font-family: 
+}
+.navbar {
+  background-color: #333333
+}
+.navbar-toggle {
+  margin-top: 20px;
+  float: right;
+}
+.button {
+    background-color: #337AB7;
+}
+.icon-bar {
+   background-color: white;
+}
+a.nav-toggle:hover {
+  background-color: black;
+}
+.manu {
+  font-size: 20px;
+
+}
+/*body {
+  background-color: #DADADA; 
+ }*/
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+ /*ABOUT HOME PAGE*/
+
+
+
+
+
+
+
