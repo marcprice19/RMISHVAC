@@ -1,6 +1,6 @@
   /*HOME PAGE AND NAV*/
 body {
-  background-color: black;
+  background-color: #222222;
 }
 img {
   width: 200px;
@@ -9,6 +9,9 @@ img {
 h1 {
   font-family: serif;
 }
+h2 {
+  color: #337AB7;
+}
 .list-group {
   text-align: center;
   font-weight: bold;
@@ -16,7 +19,7 @@ h1 {
 .jumbotron p {
   font-size: 15px;
   font-weight: bold;
-  font-family: 
+  color: black;
 }
 .jumbotron {
   padding-top: 10px;
@@ -25,26 +28,56 @@ h1 {
 .home {
   background-image: url(/images/bean.png);
 }
+ /*Products styles*/
+.row-products p {
+  color: #C7C7C7;
+}
+ /*Manufacturers sidebar*/
 
 a.list-group-item:visited {
-  background-color: white;
+  background-color: #01D561;
 }
 a.list-group-item {
-  background-color: white;
   color: black;
   border-radius: 6px;
 }
 a.list-group-item:hover {
-  background-color: #547598;
+  background-color: #337AB7;
+  color: white; 
+}
+.butt{
+  background-color: #01D561;
+}
+.butt:hover {
+  background-color: #337AB7;
   color: white;
 }
+.manu {
+  font-size: 20px;
+  color: #c7c7c7;
+}
+ /*Navbar styles*/
 ul {
   font-size: 20px;
   padding-top: 18px;
-  font-family: 
+}
+ul.nav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+}
+ul.nav a:visited {
+  background-color: #337AB7;
+}
+ul.nav a {
+  color: #C7C7C7;
+  border-radius: 6px;
+ 
 }
 .navbar {
-  background-color: #333333
+  background-color: black;
+  border-bottom-color: #01D561;
+  border-width: 2px;
 }
 .navbar-toggle {
   margin-top: 20px;
@@ -54,19 +87,11 @@ ul {
     background-color: #337AB7;
 }
 .icon-bar {
-   background-color: white;
+   background-color: #C7C7C7;
 }
-a.nav-toggle:hover {
-  background-color: black;
-}
-.manu {
-  font-size: 20px;
 
-}
-/*body {
-  background-color: #DADADA; 
- }*/
 
+/*Manufacturers icon*/
 @media screen and (max-width: 767px) {
   .row-offcanvas {
     position: relative;
