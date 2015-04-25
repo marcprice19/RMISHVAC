@@ -34,12 +34,13 @@ h2 {
 }
  /*Manufacturers sidebar*/
 
-a.list-group-item:visited {
-  background-color: #01D561;
-}
 a.list-group-item {
   color: black;
   border-radius: 6px;
+  background-color: #6E6E6E;
+}
+a.list-group-item:visited {
+  color: #660099;
 }
 a.list-group-item:hover {
   background-color: #337AB7;
